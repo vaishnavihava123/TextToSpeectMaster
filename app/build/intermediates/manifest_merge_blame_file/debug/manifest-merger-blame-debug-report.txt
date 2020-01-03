@@ -1,0 +1,50 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.texttospeectmaster"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:6:5-30:19
+12        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+12-->[androidx.core:core:1.1.0] C:\Users\TataStrive\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+13        android:debuggable="true"
+14        android:fullBackupContent="true"
+14-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:14:9-41
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:9:9-43
+16        android:label="@string/app_name"
+16-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:10:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:11:9-54
+18        android:supportsRtl="true"
+18-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:12:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:13:9-40
+21        <activity android:name="com.example.texttospeectmaster.MainActivity" >
+21-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:16:9-28:15
+21-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:16:19-47
+22            <intent-filter>
+22-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:17:13-22:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:18:17-69
+23-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:18:25-66
+24                <action android:name="android.intent.action.VIEW" />
+24-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:19:17-69
+24-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:19:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:20:17-77
+26-->D:\urmila\TextToSpeectMaster\app\src\main\AndroidManifest.xml:20:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
